@@ -1,0 +1,192 @@
+body{
+  font-family: sans-serif;
+  color:black;
+
+}
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+	text-align: center;
+}
+
+
+/* MAIN NAVIGATION BAR */
+
+.topnav{
+  background-color: #39050d;
+  height:100px;
+  color:white;
+	width:100%;
+	height: 100px;
+	position: sticky;
+	position:-webkit-sticky; /* Safari */
+	top:0;
+	z-index: 100;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:center;
+	flex-grow: 1;
+	text-align: right;
+
+}
+
+.logo_img{
+	margin-top:8px;
+	margin-left: 70px;
+	position:sticky;
+	max-width: 200px;
+}
+
+.search{
+	color:white;
+	align-content:flex-end;
+	margin-left: auto;
+	max-width:100px;
+	position: sticky;
+}
+
+.search_img{
+	width:30%;
+	position: sticky;
+}
+
+a{
+  color:white;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+	font-family: sans-serif;
+	font-weight:900;
+}
+a:hover{
+	color:#bbbbbb;
+}
+
+  a:active {
+  text-decordation:underline;
+}
+
+.navhere{
+	text-decoration:underline;
+}
+
+
+
+.layout{
+	width:100%;
+	height: 100px;
+	background-color: #f5eaea;
+
+}
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:28px;
+	text-align: center;
+	
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 34px;
+	color:#39050d;
+	margin-top:30px;
+}
+
+.hero_content img{
+	width:100%;
+	padding:20px;
+
+}
+/* SHARE BUTTON */
+.share_button{
+	background-color:#39050d;
+	width: 100px;
+	height:50px;
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-top:300px;
+	text-align: center;
+	color:#03d1d3;
+	font-family: sans-serif;
+	margin-left:auto;
+	color:#03d1d3;
+	
+}
+/* SECONDARY NAVIGATION BARS */
+.secondary_nav{
+  background-color: #39050d;
+  height:50px;
+  text-align: center;
+  color:white;
+	width:100%;
+	z-index: 100;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:center;
+	flex-grow: 1;
+	
+}
+/* SECONDARY HERO TEXT */
+.marine_headline{
+	font-weight: bold;
+	font-size: 24px;
+	color:#39050d;
+	font-size:28px;
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+.secondaryhero_content img{
+	width:100%;
+	padding:20px;
+	margin-top:30px;
+}
+	
+
+
+/* FEATURED ITEMS COMPONENT */
+
+.featured_items{
+  height:100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: left;
+
+}
+
+
+.featured_items .section{
+   color: #03d1d3;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.featured_items img{
+	float: right;
+	overflow: auto;
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
