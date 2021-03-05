@@ -1,0 +1,162 @@
+body{
+  font-family: sans-serif;
+  color:black;
+
+}
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+	text-align: center;
+}
+
+
+
+.layout{
+	width:100%;
+	height: 100px;
+	background-color: #f5eaea;
+
+}
+
+.topnavbar{
+	background-color: #39050d;
+  height:100px;
+  text-align: center;
+  color:white;
+	width:100%;
+	z-index: 100;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:center;
+	flex-grow: 1;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:28px;
+	text-align: center;
+	
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 34px;
+	color:#39050d;
+	margin-top:30px;
+}
+
+.hero_content img{
+	width:100%;
+	
+
+}
+/* SHARE BUTTON */
+.share_button{
+	
+	width: 100px;
+	height:100px;
+	margin-left: 60px;
+	margin-top: 300px;
+}
+
+.share_button img{
+	width:100%;
+	
+}
+
+/* SECONDARY NAVIGATION BARS */
+.secondary_nav{
+  background-color: #bbbbbb;
+  height:50px;
+  text-align: center;
+  color:white;
+	width:100%;
+	z-index: 100;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	align-items:center;
+	flex-grow: 1;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+/* SECONDARY HERO TEXT */
+.marine_headline{
+	font-weight: bold;
+	font-size: 24px;
+	color:#39050d;
+	font-size:28px;
+	text-align: center;
+	
+	
+}
+.secondaryhero_content img{
+	width:100%;
+	margin-top:20px;
+}
+	
+
+
+/* FEATURED ITEMS COMPONENT */
+.featnavbar{
+	 background-color: #bbbbbb;
+  height:50px;
+  text-align: left;
+	align-items: center;
+  color:white;
+	width:100%;
+	z-index: 100;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	flex-grow: 1;
+	margin-bottom:20px;
+	margin-top:20px;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+.featured_items{
+  height:100%;
+  overflow: auto;
+  text-align: left;
+  margin-bottom:20px;
+  color:#39050d;
+
+}
+
+
+.featured_items .section{
+   color: #03d1d3;
+   text-transform: uppercase;
+   font-weight: bold;
+	
+}
+
+.featured_items img{
+	float: right;
+	overflow: auto;
+}
+
+/*gutter width on all col except the last */
+div [class^="col"] {
+	padding-right:20px;
+}
+div[class^="col"]:last-of-type{
+	padding-right:0px;
+}
