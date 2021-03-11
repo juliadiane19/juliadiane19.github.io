@@ -99,22 +99,26 @@ body{
   0% {
     background-color: pink;
     border-radius: 0px;
+	transform: rotate(0deg);
   }
   
   33% {
     background-color: purple;
     border-radius: 33px;
+	  transform: rotate(10deg);
   }
 	
 	  66% {
     background-color: blue;
     border-radius: 66px;
+		  transform: rotate(20deg);
   }
 	
 	
   100% {
     background-color:teal;
     border-radius: 100px;
+	  transform: rotate(30deg);
     
   }
 
@@ -150,20 +154,22 @@ body{
   
   0% {
     background-color: pink;
-  transform: scale (1,1);
-	  color:white
+	  color:white;
+		  transform: scale (1,1) skew(0deg,0deg);
   }
   
   25% {
     background-color: red;
-	  transform: scale (1.1,1.1);
-	  color:lightgray
+	  transform: scale (1.1,1.1); 
+tranform:skew(0deg,5deg);
+	  color:lightgray;
     
   }
 	
 	  50% {
     background-color: orange;
 		  transform: scale (1.25,1.25);
+		  tranform:skew(0deg,10deg);
 		  color:darkgrey;
     
   }
@@ -171,6 +177,7 @@ body{
 	75%{
 		background-color: yellow;
     transform: scale (1.35, 1.35);
+		transform:skew(0deg,15deg);
 		color:black;
 	}
 	
@@ -178,6 +185,7 @@ body{
   100% {
     background-color:cornflowerblue;
     transform: scale (1.5,1.5);
+	  transform:skew(0deg,20deg);
 	  color:black;
   }
 
