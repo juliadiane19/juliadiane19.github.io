@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:100px;
+   		color:red;
+		font-style: italic;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+      
+    .card{
+    	position: relative;
+       display: inline-block;
+    }
+
+    .card img{
+      width:100%;
+      height:auto;
+		transition:.5s ease;
+	-webkit-filter:brightness(1);
+		filter:brightness(1);
+		padding:50px;
+    }
+
+
+    .center {
+     padding: 60% 0;
+     text-align: center;
+    }
+
+
+    .card:hover img{
+		transition: .5s -webkit-filter ease;
+		-webkit-filter:brightness(2.5);
+		filter:brightness(2.5);
+		transform:scale(1.5,1.5);
+
+		
+    }
+
+    .card_text{
+    	margin:0;
+    }
+	   
+
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  <img src="img/firetruck.png" alt="firetruck"> <p>Fire!</p>
+       </div>
+	</div>
+
+</body>
+</html>
