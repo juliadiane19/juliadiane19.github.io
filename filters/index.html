@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: brightness(0); 
+      filter: brightness(0);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 4s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: brightness(1) invert(1); 
+	        filter: brightness(1) invert(1);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/pop.jpg" alt="popart">
+
+</body>
+</html>
